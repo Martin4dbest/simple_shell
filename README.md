@@ -22,4 +22,4 @@ This shell is intentionally minimalistic, yet includes the basic functionality o
 rface. Standard functions and system calls employed in simple_shell include: access, execve, exit, fork, free, fstat, getline, m
 alloc, perror, signal, stat, wait, write.                                                                                       
                                                                                                                                 
-This README file contains everything about the project and methodology
+This README file contains everything about the project and methodology.
