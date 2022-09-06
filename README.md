@@ -74,37 +74,37 @@ unsetenv -> remove a global variable.
 
 <h2>List of allowed functions and system calls for this project</h2>
 
-access (man 2 access)
-chdir (man 2 chdir)
-close (man 2 close)
-closedir (man 3 closedir)
-execve (man 2 execve)
-exit (man 3 exit)
-_exit (man 2 _exit)
-fflush (man 3 fflush)
-fork (man 2 fork)
-free (man 3 free)
-getcwd (man 3 getcwd)
-getline (man 3 getline)
-getpid (man 2 getpid)
-isatty (man 3 isatty)
-kill (man 2 kill)
-malloc (man 3 malloc)
-open (man 2 open)
-opendir (man 3 opendir)
-perror (man 3 perror)
-read (man 2 read)
-readdir (man 3 readdir)
-signal (man 2 signal)
-stat (__xstat) (man 2 stat)
-lstat (__lxstat) (man 2 lstat)
-fstat (__fxstat) (man 2 fstat)
-strtok (man 3 strtok)
-wait (man 2 wait)
-waitpid (man 2 waitpid)
-wait3 (man 2 wait3)
-wait4 (man 2 wait4)
-write (man 2 write)
+1. access (man 2 access)
+2. chdir (man 2 chdir)
+3. close (man 2 close)
+4. closedir (man 3 closedir)
+5. execve (man 2 execve)
+6. exit (man 3 exit)
+7. _exit (man 2 _exit)
+8. fflush (man 3 fflush)
+9. fork (man 2 fork)
+10. free (man 3 free)
+11. getcwd (man 3 getcwd)
+12. getline (man 3 getline)
+13. getpid (man 2 getpid)
+15. isatty (man 3 isatty)
+16. kill (man 2 kill)
+17. malloc (man 3 malloc)
+18. open (man 2 open)
+19. opendir (man 3 opendir)
+20. perror (man 3 perror)
+21. read (man 2 read)
+22. readdir (man 3 readdir)
+23. signal (man 2 signal)
+24. stat (__xstat) (man 2 stat)
+25. lstat (__lxstat) (man 2 lstat)
+26. fstat (__fxstat) (man 2 fstat)
+27. strtok (man 3 strtok)
+28. wait (man 2 wait)
+29. waitpid (man 2 waitpid)
+30. wait3 (man 2 wait3)
+31. wait4 (man 2 wait4)
+40. write (man 2 write)
 
 USAGE
 
@@ -112,7 +112,7 @@ You can try our shell by following these steps:
 
 Step 1: Clone our repository using this command, (you need to have git installed on your machine first)
 
-git clone https://github.com/MatriMariem/simple_shell
+git clone https://github.com/Martin4dbest/simple_shell
 Step 2: Change directory to simple_shell:
 
 cd simple_shell
@@ -130,15 +130,16 @@ exit
 2: Press on Ctrl + D
 
 Example of Usage
-ubunto@ubuntu:~/Bureau/simple_shell$ gcc -Wall -Wextra -Werror -pedantic *.c -o hsh
+
+1. ubunto@ubuntu:~/Bureau/simple_shell$ gcc -Wall -Wextra -Werror -pedantic *.c -o hsh
 ubunto@ubuntu:~/Bureau/simple_shell$ ./hsh
-#$ echo Hello, This is an example
+2. $ echo Hello, This is an example
 Hello, This is an example
-#$ ls
+3. $ ls
 README.md  checkbuild.c  line_exec.c  shell.c  string.c
 buildin.c  hsh		 linkpath.c   shell.h
-#$ ^C
-#$ ls -l
+4. $ ^C
+5. $ ls -l
 total 52
 -rw-r--r-- 1 ubunto ubunto  3067 Nov 26 04:22 README.md
 -rw-r--r-- 1 ubunto ubunto  2183 Nov 24 16:17 buildin.c
@@ -149,12 +150,14 @@ total 52
 -rw-r--r-- 1 ubunto ubunto   951 Nov 24 16:09 shell.c
 -rw-r--r-- 1 ubunto ubunto  1351 Nov 24 15:58 shell.h
 -rw-r--r-- 1 ubunto ubunto  1727 Nov 24 14:30 string.c
-#$ exit
+6. $ exit
 ubunto@ubuntu:~/Bureau/simple_shell$
 
 #Bugs
+
 No known Bugs.
 
 #TEAM
+
 Martin Agoha
 Adeolu Adeeyo
