@@ -8,7 +8,6 @@
 <li>File description</li>
 <li>List of allowed functions and system calls for this project</li>
 <li>USAGE</li>
-<li>Example of Usage</li>
 <li>Bugs</li>
 <li>TEAM</li>
 </ul>
@@ -129,29 +128,6 @@ Exiting the shell When you want to exit the shell, you can use one of the follow
 exit
 2: Press on Ctrl + D
 
-Example of Usage
-
-1. ubunto@ubuntu:~/Bureau/simple_shell$ gcc -Wall -Wextra -Werror -pedantic *.c -o hsh
-ubunto@ubuntu:~/Bureau/simple_shell$ ./hsh
-2. $ echo Hello, This is an example
-Hello, This is an example
-3. $ ls
-README.md  checkbuild.c  line_exec.c  shell.c  string.c
-buildin.c  hsh		 linkpath.c   shell.h
-4. $ ^C
-5. $ ls -l
-total 52
--rw-r--r-- 1 ubunto ubunto  3067 Nov 26 04:22 README.md
--rw-r--r-- 1 ubunto ubunto  2183 Nov 24 16:17 buildin.c
--rw-r--r-- 1 ubunto ubunto   574 Nov 24 15:59 checkbuild.c
--rwxr-xr-x 1 ubunto ubunto 18144 Nov 26 04:22 hsh
--rw-r--r-- 1 ubunto ubunto  2091 Nov 24 14:49 line_exec.c
--rw-r--r-- 1 ubunto ubunto  1926 Nov 24 14:30 linkpath.c
--rw-r--r-- 1 ubunto ubunto   951 Nov 24 16:09 shell.c
--rw-r--r-- 1 ubunto ubunto  1351 Nov 24 15:58 shell.h
--rw-r--r-- 1 ubunto ubunto  1727 Nov 24 14:30 string.c
-6. $ exit
-ubunto@ubuntu:~/Bureau/simple_shell$
 
 #Bugs
 
