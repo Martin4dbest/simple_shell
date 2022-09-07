@@ -13,14 +13,22 @@ This is an ALX collaboration project on Shell. We were tasked to create a simple
 <h2>Description</h2>                                                                                                          
 hsh is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them. 
                                                                                                                               
-<h2>How hsh works</h2>                                                                                                        
+<h2>How hsh works</h2>
+                                                                                                        
 1. Prints a prompt and waits for a command from the user                                                                         
+
 2. Creates a child process in which the command is checked                                                                       
+
 3. Checks for built-ins, aliases in the PATH, and local executable programs                                                      
+
 4. The child process is replaced by the command, which accepts arguments                                                         
+
 5. When the command is done, the program returns to the parent process and prints the prompt                                     
+
 6. The program is ready to receive a new command                                                                                 
+
 7. To exit: press Ctrl-D or enter "exit" (with or without a status)                                                              
+
 8. Works also in non interactive mode                                                                                            
                                                                                                                               
 <h2>Invocation</h2>                                                                                                           
