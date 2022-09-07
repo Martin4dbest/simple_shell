@@ -80,16 +80,8 @@ A colon-separated list of directories in which the shell looks for commands. A n
                                                                                                                               
 $ echo "echo $PATH" | ./hsh                                                                                                   
 /home/projects/.cargo/bin:/home/projects/.local/bin:/home/projects/.rbenv/plugins/ruby-build/bin:/home/projects/.rbenv/shims:/
-home/proj                                                                                                                     
-                                                                                                                              
-<<<<<<< HEAD                                                                                                                  
-<<<<<<< HEAD                                                                                                                  
-This README file contains everything about the project and methodology                                                        
-=======                                                                                                                       
-Martin Agoha                                                                                                                  
-Adeolu Adeeyo                                                                                                                 
->>>>>>> 77f8b97d788a7535cb42c877860bed53b1bad8ac                                                                              
-=======                                                                                                                       
+home/proj
+                                                                              
 <h2>Command Execution</h2>                                                                                                    
 After receiving a command, hsh tokenizes it into words using " " as a delimiter. The first word is considered the command and 
 all remaining words are considered arguments to that command. hsh then proceeds with the following actions:                   
